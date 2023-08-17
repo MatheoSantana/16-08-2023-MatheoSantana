@@ -1,0 +1,24 @@
+   20  git clone https://github.com/MatheoSantana/16-08-2023-MatheoSantana.git
+   21  cd 16-08-2023-MatheoSantana/
+   22  touch main.js index.html
+   23  git add .
+   24  git commit -m "commit 01 de MatheoSantana"
+   25  git push origin main
+   26  git branch feature
+   27  git checkout feature 
+   28  mkdir Hardware Software SeguridadInformatica
+   29  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   30  git add .
+   31  git commit -m "commit 02 de MatheoSantana"
+   32  git push origin feature 
+   33  git checkout main
+   34  mv main.js resumenHardware.txt
+   35  mv index.html resumenSoftware.txt
+   36  echo chrome > resumenSoftware.txt 
+   37  echo steam >> resumenSoftware.txt 
+   38  echo calculadora >> resumenSoftware.txt 
+   39  echo cpu >> resumenHardware.txt 
+   40  echo ram >> resumenHardware.txt 
+   41  echo mouse >> resumenHardware.txt 
+   42  touch comandos.txt
+   43  history >> comandos.txt 
